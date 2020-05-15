@@ -1,3 +1,18 @@
-.logo__negro {
-    color: black;
+:root{
+    --primario :#012840;
+    --secundario: #010326;
+}
+#logo_nav_black,#logo_nav_white{
+    width: 3rem;
+}
+#logo_footer{
+    width: 3rem;
+}
+.gradient {
+    background: linear-gradient(90deg, var(--primario) 0%, var(--secundario) 100%);
+}
+.center > img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
